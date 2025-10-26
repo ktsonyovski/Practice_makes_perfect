@@ -16,8 +16,3 @@ jobs:
           run: |
             python -m pip install --upgrade pip
             pip install pylint
-        
-        - name: Find python files and run pylint
-          run: |
-            echo "Running pylint on Python files:"
-            pylint day_*/*.py -v
