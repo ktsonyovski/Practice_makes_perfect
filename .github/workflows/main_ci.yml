@@ -19,4 +19,5 @@ jobs:
         
         - name: Run pylint on all Python files
           run: |
-            find . -type f -name "*.py" | xargs pylint --exit-zero
+            echo "Finding Python files to execute pylint..."
+            find . -type f -name "*.py" -exec pylint --exit-zero {} +
