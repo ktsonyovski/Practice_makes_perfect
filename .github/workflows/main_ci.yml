@@ -20,4 +20,4 @@ jobs:
         - name: Run pylint on all Python files
           run: |
             echo "Finding Python files to execute pylint..."
-            find . -type f -name "*.py" -exec pylint --exit-zero {} +
+            find . -type f -name "*.py" -exec echo "Linting: {}" \; -exec pylint --exit-zero {} \;
