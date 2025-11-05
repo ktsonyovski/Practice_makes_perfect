@@ -5,7 +5,7 @@ on:
         branches: [ "*" ]
 
 jobs:
-    setup_environment:
+    setup_environment_and_run_pylint:
         runs-on: ubuntu-latest
 
         steps:
