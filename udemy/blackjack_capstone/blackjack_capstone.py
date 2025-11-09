@@ -11,9 +11,10 @@ def game():
     deal_card(dealer_hand, DECK)
     deal_card(player_hand, DECK)
     deal_card(player_hand, DECK)
-    print(f"The dealer hand is showing: {dealer_hand}")
-    print(f"You have: {player_hand}")
     player_score = calculate_score(player_hand)
+
+    print(f"The dealer hand is showing: {dealer_hand}")
+    print(f"You have: {player_hand}, with a score of {player_score}")
 
     while continue_game:
         user_choice= input("What do you want to do: ").lower()
@@ -33,6 +34,7 @@ def game():
 
     while dealer_score < 17:
         deal_card(dealer_hand, DECK)
+        print(f"Dealer new score {dealer_score}")
         dealer_score = calculate_score(dealer_hand)
 
     if player_score <= 21:
