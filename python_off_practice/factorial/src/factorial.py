@@ -7,7 +7,7 @@ def factorial_iterative(number: int) -> int:
     Iterative factorial function which takes an integer and returns it factorial.
     '''
     fact = 1
-    for number in range(2, n + 1):
+    for number in range(2, number + 1):
         fact *= number
     return fact
 
