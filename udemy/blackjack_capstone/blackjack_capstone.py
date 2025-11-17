@@ -1,18 +1,5 @@
 """Blackjack Capstone Project Code"""
-import random
-
-BLACKJACK_DECK = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11]
-
-def deal_card(player_hand: list) -> list:
-    """Get random card from deck and append it to given hand."""
-    card = random.choice(BLACKJACK_DECK)
-    player_hand.append(card)
-    return card
-
-def calculate_score(player_hand: list) -> int:
-    """Calculate hand score."""
-    return sum(player_hand)
-
+from helpers import deal_card, calculate_score, DECK
 
 def game():
     """Game logic"""
@@ -21,12 +8,13 @@ def game():
     player_hand = []
     continue_game = True
 
-    deal_card(dealer_hand)
-    deal_card(player_hand)
-    deal_card(player_hand)
-    print(f"The dealer hand is showing: {dealer_hand}")
-    print(f"You have: {player_hand}")
+    deal_card(dealer_hand, DECK)
+    deal_card(player_hand, DECK)
+    deal_card(player_hand, DECK)
     player_score = calculate_score(player_hand)
+
+    print(f"The dealer hand is showing: {dealer_hand}")
+    print(f"You have: {player_hand}, with a score of {player_score}")
 
     while continue_game:
         user_choice= input("What do you want to do: ").lower()
@@ -35,7 +23,7 @@ def game():
             print(f"You have {player_score}")
             continue_game = False
         else:
-            new_card = deal_card(player_hand)
+            new_card = deal_card(player_hand, DECK)
             player_score = calculate_score(player_hand)
             if player_score > 21:
                 print(f"You lose, bust! {player_score}")
@@ -45,7 +33,8 @@ def game():
     dealer_score = calculate_score(dealer_hand)
 
     while dealer_score < 17:
-        deal_card(dealer_hand)
+        deal_card(dealer_hand, DECK)
+        print(f"Dealer new score {dealer_score}")
         dealer_score = calculate_score(dealer_hand)
 
     if player_score <= 21:
