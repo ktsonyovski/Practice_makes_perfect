@@ -18,9 +18,9 @@ def is_prime(num: int) -> bool:
     while i <= num:
         if num % i == 0 or num % (i + 2) == 0:
             i += 6
-            return False
-        else:
             return True
+        else:
+            return False
         
 
 number = int(input("Enter a number: "))
