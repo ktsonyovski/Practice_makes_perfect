@@ -1,0 +1,28 @@
+═══════════════════════════════════════════════════════════════════
+                          THE LIBRARY
+═══════════════════════════════════════════════════════════════════
+
+Floor-to-ceiling bookshelves line the mahogany-paneled walls.
+A crystal chandelier casts dancing shadows. The room smells of
+old paper and leather.
+
+What you notice:
+  • Lady Victoria was here earlier - her reading glasses on the table
+  • Several medical books are scattered on a side table
+  • A journal dated from last month contains notes about Pemberton's
+    "concerning behavior and financial irregularities"
+  • Behind the curtains: scuff marks on the floor, as if something
+    was dragged
+
+CLUE: A torn piece of fabric catches your eye under the bookshelf.
+It's midnight blue, expensive looking. You recognize this fabric - 
+it matches the jacket James Fletcher was wearing!
+
+═══════════════════════════════════════════════════════════════════
+
+Continue investigating...
+
+  → cd ../rooms
+  → cat garden.txt
+
+═══════════════════════════════════════════════════════════════════

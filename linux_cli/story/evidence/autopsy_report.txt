@@ -1,0 +1,35 @@
+═══════════════════════════════════════════════════════════════════
+                        AUTOPSY REPORT
+═══════════════════════════════════════════════════════════════════
+
+VICTIM: Mr. Edmund Pemberton, Age 47
+TIME OF DEATH: Approximately 12:00 AM (midnight)
+CAUSE OF DEATH: Acute cyanide poisoning
+
+DETAILS:
+The victim shows classic signs of cyanide poisoning:
+  • Facial flushing and bright red discoloration
+  • Smell of bitter almonds on the breath
+  • Foaming at the mouth
+  • Dilated pupils
+
+TOXICOLOGY: 
+  • Cyanide concentration in blood: 4.2 mg/L (lethal dose)
+  • Found in stomach contents: wine and crushed almonds
+  • Time of ingestion: Approximately 11:50 PM
+  • The poison was mixed into the wine
+
+STOMACH ANALYSIS:
+Contents include: Cheese, bread, wine, and crushed almonds mixed
+with cyanide compound. The almond pieces suggest an attempt to mask
+the bitter taste of the poison.
+
+CONCLUSION: Poisoning was deliberate and premeditated.
+
+═══════════════════════════════════════════════════════════════════
+
+Next: Read the suspect interviews
+
+  → cat interviews.txt
+
+═══════════════════════════════════════════════════════════════════

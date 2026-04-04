@@ -1,0 +1,52 @@
+═══════════════════════════════════════════════════════════════════
+                    EXTERNAL CONSULTANT REPORT
+═══════════════════════════════════════════════════════════════════
+
+HIRED BY: Dr. Margaret Stone (Personal request)
+DATE: October 15, 2023 (One month before the murder)
+FINDINGS: MAJOR FINANCIAL IRREGULARITIES DISCOVERED
+
+════════════════════════════════════════════════════════════════════
+
+SUMMARY OF FINDINGS:
+
+Dr. Margaret Stone hired me to audit Lady Victoria's finances after
+noticing unusual medical supply expenses that didn't match laboratory
+records. In investigating those discrepancies, I discovered:
+
+1. Five years of £50,000 annual withdrawals
+2. These withdrawals were authorized by Mr. Pemberton
+3. No matching expenditures or projects documented
+4. Mr. Pemberton's lifestyle shows unexplained wealth increase
+5. James Fletcher has approved all transactions without question
+
+CONCLUSION: Systematic embezzlement totaling £250,000
+
+RECOMMENDATION: Report to authorities immediately
+
+════════════════════════════════════════════════════════════════════
+
+CRITICAL REVELATION:
+  
+Dr. Stone discovered her position was being exploited. Pemberton had
+been ordering chemicals under her name using forged request forms.
+The "pesticide compounds" were being filled under Dr. Stone's
+credentials, but were actually being paid for from Lady Victoria's
+account and sold on the black market.
+
+Dr. Stone is the person marked "M.P." - She discovered the crime
+and told the others about it.
+
+════════════════════════════════════════════════════════════════════
+
+Next: Who actually administered the poison?
+
+Review all clues:
+  → Find who had access to cyanide
+  → Who knew the exact time of the murder
+  → Who had a "second motive" beyond the embezzlement
+  
+  → grep -r "motive" .
+  → cat personal_histories.txt
+
+═══════════════════════════════════════════════════════════════════

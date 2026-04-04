@@ -1,0 +1,47 @@
+═══════════════════════════════════════════════════════════════════
+                      FINANCIAL RECORDS
+═══════════════════════════════════════════════════════════════════
+
+LADY VICTORIA'S ACCOUNT DISCREPANCIES:
+════════════════════════════════════════════════════════════════════
+
+Year    Amount Missing    Approved By
+────────────────────────────────────
+2019    £50,000          Pemberton
+2020    £50,000          Pemberton
+2021    £50,000          Pemberton  
+2022    £50,000          Pemberton
+2023    £50,000          Pemberton
+
+Total Missing: £250,000
+
+════════════════════════════════════════════════════════════════════
+
+INVESTIGATION NOTES:
+  
+James Fletcher's access logs show he has audit permissions and
+could approve or hide transfers. His salary: £30,000/year
+  → Question: How could he afford his recent luxury purchases?
+
+Dr. Stone has been signing for medical supplies but no record of
+actual deliveries. Some items listed: "General chemicals"
+  → Question: What was she really purchasing?
+
+Roland Davies has ordered unusual quantities of "pesticide compounds"
+He has access to the grounds and storage facilities.
+  → Question: Why does a gardener need so much cyanide compound?
+
+════════════════════════════════════════════════════════════════════
+
+THE TRUTH ABOUT THE EMBEZZLEMENT:
+
+The investigation shows:
+  • Pemberton created false invoices
+  • James Fletcher signed off on them
+  • Lady Victoria remained unaware for 5 years
+  
+But WHO discovered it? Check the consultant report...
+
+  → cat consultant_report.txt
+
+═══════════════════════════════════════════════════════════════════

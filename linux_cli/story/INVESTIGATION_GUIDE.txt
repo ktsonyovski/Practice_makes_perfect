@@ -1,0 +1,84 @@
+═══════════════════════════════════════════════════════════════════
+                      HELPFUL COMMANDS GUIDE
+═══════════════════════════════════════════════════════════════════
+
+NAVIGATION:
+════════════════════════════════════════════════════════════════════
+pwd              Print your current location
+cd [folder]      Change to a folder
+cd ..            Go back up one level
+ls               List all files in current folder
+ls -la           List files with details
+ls -la ../       List files in parent folder
+
+════════════════════════════════════════════════════════════════════
+
+READING FILES:
+════════════════════════════════════════════════════════════════════
+cat [file]       Read entire file contents
+head [file]      Read first 10 lines
+tail [file]      Read last 10 lines
+cat [file] | head -20    Read first 20 lines
+
+════════════════════════════════════════════════════════════════════
+
+SEARCHING:
+════════════════════════════════════════════════════════════════════
+grep "word" [file]        Search for word in a file
+grep -r "word" .          Search in all files
+grep -i "word" [file]     Search (ignore uppercase/lowercase)
+find . -name "*keyword*"  Find files with keyword in name
+find . -type f            Find all files
+
+════════════════════════════════════════════════════════════════════
+
+ANALYSIS:
+════════════════════════════════════════════════════════════════════
+wc -l [file]     Count lines in a file
+wc -w [file]     Count words in a file
+wc [file]        Count lines, words, and characters
+
+════════════════════════════════════════════════════════════════════
+
+SUGGESTED INVESTIGATION PATH:
+════════════════════════════════════════════════════════════════════
+
+1. Start:
+   cat intro.txt
+
+2. Visit the crime scene:
+   cd rooms
+   cat study.txt
+
+3. Explore other locations:
+   cat garden.txt
+   cat library.txt
+   cat kitchen.txt
+
+4. Analyze evidence:
+   cd ../evidence
+   cat autopsy_report.txt
+   cat interviews.txt
+
+5. Search for hidden evidence:
+   grep -r "alibi" .
+   grep -r "motive" .
+
+6. Find the truth:
+   cat letter_found.txt
+   cat financial_records.txt
+   cat witness_statements.txt
+
+7. Solve the mystery:
+   cat case_closed.txt
+
+════════════════════════════════════════════════════════════════════
+
+TIPS:
+  • Pay attention to small details in the descriptions
+  • Note who was where and when
+  • Look for inconsistencies in alibis
+  • Search for hidden motives
+  • Don't assume the obvious suspect is guilty!
+
+════════════════════════════════════════════════════════════════════

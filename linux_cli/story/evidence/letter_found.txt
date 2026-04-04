@@ -1,0 +1,44 @@
+═══════════════════════════════════════════════════════════════════
+                    THE TORN LETTER - FULL VERSION
+═══════════════════════════════════════════════════════════════════
+
+This is the complete letter found partially burned in the fireplace.
+Recovered through careful analysis of ash patterns and ink residue.
+
+FULL TEXT:
+════════════════════════════════════════════════════════════════════
+
+"Dear Pemberton,
+
+I have discovered your secret about the embezzlement. For five years,
+you have been siphoning £50,000 annually from Lady Victoria's accounts.
+
+I confronted the others about this. We agreed it must end tonight.
+
+The three of us discussed the matter, and we decided James would 
+handle the financial records. But things went wrong. When I told 
+you I knew, you became aggressive. You threatened to destroy us all.
+
+In the struggle, James lost his jacket button. The gardener became
+nervous. Someone said they would 'take care of it.' But I never 
+expected them to actually go through with poison.
+
+I confess my involvement in the scheme to hide the embezzlement, but
+I swear I did not poison you.
+
+Your former friend,
+M.P."
+
+════════════════════════════════════════════════════════════════════
+
+CRITICAL CLUES:
+  • Three people are implicated in the embezzlement scheme
+  • Someone said they would 'take care of it'
+  • The person who took action might be someone else entirely
+
+  → ls -la ../
+  → Look for files mentioning the four suspects and their secrets
+  → grep -r "Victoria" .
+  → cat financial_records.txt
+
+═══════════════════════════════════════════════════════════════════
