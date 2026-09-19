@@ -1,11 +1,11 @@
 """Simplest login liniear scripting test cases"""
 import unittest
-from ..page_actions.browser import Browser
-from ..page_actions.base_page import  BasePage
+from quality_house.b_structured_scripting.page_actions.browser import Browser
+from quality_house.b_structured_scripting.page_actions.base_page import BasePage
+
 
 class LoginTests(unittest.TestCase):
     """Login test cases"""
-
 
     def setUp(self):
         self.browser = Browser()
