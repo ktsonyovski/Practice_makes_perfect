@@ -1,0 +1,20 @@
+[project]
+name = "quality-house"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ktsonyovski", email = "ktsonyovski@outlook.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pytest>=9.1.1",
+    "selenium>=4.49.0",
+]
+
+[project.scripts]
+quality-house = "quality_house:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"

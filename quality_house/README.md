@@ -1,0 +1,1 @@
+# Quality house practice repo for types of testing approaches
