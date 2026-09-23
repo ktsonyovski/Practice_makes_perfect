@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites name="pytest tests">
+    <testsuite name="pytest" errors="0" failures="0" skipped="0" tests="4" time="18.607"
+        timestamp="2026-09-23T23:32:43.913377+03:00" hostname="192.168.1.10">
+        <testcase classname="a_linear_scripting.login.test_loginuser.TestLoginuserone"
+            name="test_loginuserone" time="4.375" />
+        <testcase classname="a_linear_scripting.login.test_loginuser.TestLoginuserone"
+            name="test_loginusertwo" time="4.131" />
+        <testcase classname="a_linear_scripting.login.test_loginuser.TestLoginuserone"
+            name="test_testloginuserthree" time="4.251" />
+        <testcase classname="a_linear_scripting.login.test_loginuser.TestLoginuserone"
+            name="test_loginuserssequentually" time="5.827" />
+    </testsuite>
+</testsuites>
